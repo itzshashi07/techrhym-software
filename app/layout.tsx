@@ -59,12 +59,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${plusJakartaSans.variable} ${spaceGrotesk.variable} ${inter.variable} bg-background`}>
-      <body className="font-sans antialiased bg-background text-foreground">
-        {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
-      </body>
-    </html>
-  )
+ return (
+  <html lang="en" suppressHydrationWarning>
+    <body
+      suppressHydrationWarning
+      className="font-sans antialiased bg-background text-foreground"
+    >
+      {children}
+      {process.env.NODE_ENV === "production" && <Analytics />}
+    </body>
+  </html>
+);
 }

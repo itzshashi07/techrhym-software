@@ -1,92 +1,111 @@
 import { Navigation } from '@/components/navigation'
 import { Footer } from '@/components/footer'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, Calendar, User } from 'lucide-react'
 
 export const metadata = {
   title: 'Blog | Techrhym - Zoho CRM, AI & Business Automation Insights',
-  description: 'Expert insights on Zoho CRM implementation, AI automation, business process optimization, and digital transformation strategies.',
+  description:
+    'Expert insights on Zoho CRM implementation, AI automation, business process optimization, and digital transformation strategies.',
 }
 
 const posts = [
   {
     slug: 'zoho-crm-implementation-best-practices',
     title: 'Zoho CRM Implementation: Best Practices & Common Mistakes',
-    excerpt: 'Learn the proven methodology for successful Zoho CRM implementation, including planning, configuration, data migration, and user adoption strategies.',
-    author: 'Shashi Singh',
+    excerpt:
+      'Learn the proven methodology for successful Zoho CRM implementation, including planning, configuration, data migration, and user adoption strategies.',
+    author: 'Shashi Kumar',
     date: 'March 15, 2024',
     category: 'Zoho CRM',
-    image: '🎯',
-    readTime: '8 min read'
+    image:
+      'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80',
+    readTime: '8 min read',
   },
   {
     slug: 'ai-chatbots-customer-support',
     title: 'AI Chatbots for Customer Support: ROI & Implementation Guide',
-    excerpt: 'Discover how AI chatbots can reduce support costs by 50%, improve response times, and deliver 24/7 customer service without scaling your team.',
-    author: 'Priya Sharma',
+    excerpt:
+      'Discover how AI chatbots can reduce support costs by 50%, improve response times, and deliver 24/7 customer service without scaling your team.',
+    author: 'Shashi Kumar',
     date: 'March 10, 2024',
     category: 'AI Automation',
-    image: '💬',
-    readTime: '6 min read'
+    image:
+      'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80',
+    readTime: '6 min read',
   },
   {
     slug: 'business-process-automation-guide',
     title: 'Complete Guide to Business Process Automation (BPA)',
-    excerpt: 'Transform manual workflows into intelligent automated processes. Learn which processes to automate first and how to measure success.',
-    author: 'Rajesh Kumar',
+    excerpt:
+      'Transform manual workflows into intelligent automated processes. Learn which processes to automate first and how to measure success.',
+    author: 'Shashi Kumar',
     date: 'March 5, 2024',
     category: 'Automation',
-    image: '⚙️',
-    readTime: '10 min read'
+    image:
+      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80',
+    readTime: '10 min read',
   },
   {
     slug: 'lead-scoring-automation-sales',
     title: 'Lead Scoring Automation: Increase Sales Conversion by 40%',
-    excerpt: 'Implement intelligent lead scoring to prioritize high-value prospects, reduce sales cycle time, and improve team productivity.',
-    author: 'Meera Patel',
+    excerpt:
+      'Implement intelligent lead scoring to prioritize high-value prospects, reduce sales cycle time, and improve team productivity.',
+    author: 'Shashi Kumar',
     date: 'February 28, 2024',
     category: 'Sales',
-    image: '📊',
-    readTime: '7 min read'
+    image:
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80',
+    readTime: '7 min read',
   },
   {
     slug: 'whatsapp-business-automation',
     title: 'WhatsApp Business Automation: Reaching Customers Where They Are',
-    excerpt: 'Automate customer communication through WhatsApp for lead generation, customer service, and sales with higher engagement rates.',
-    author: 'Anil Singh',
+    excerpt:
+      'Automate customer communication through WhatsApp for lead generation, customer service, and sales with higher engagement rates.',
+    author: 'Shashi Kumar',
     date: 'February 20, 2024',
     category: 'Marketing',
-    image: '📱',
-    readTime: '6 min read'
+    image:
+      'https://images.unsplash.com/photo-1611605698335-8b1569810432?w=1200&q=80',
+    readTime: '6 min read',
   },
   {
     slug: 'digital-transformation-roadmap',
     title: 'Digital Transformation Roadmap: 5 Steps to Transform Your Business',
-    excerpt: 'Strategic guide to planning and executing digital transformation initiatives. Includes assessment, planning, implementation, and optimization phases.',
-    author: 'Deepak Verma',
+    excerpt:
+      'Strategic guide to planning and executing digital transformation initiatives. Includes assessment, planning, implementation, and optimization phases.',
+    author: 'Shashi Kumar',
     date: 'February 15, 2024',
     category: 'Strategy',
-    image: '🚀',
-    readTime: '9 min read'
-  }
+    image:
+      'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80',
+    readTime: '9 min read',
+  },
 ]
 
 export default function Blog() {
   return (
     <>
       <Navigation />
+
       <main className="relative overflow-hidden">
-        {/* Hero */}
+        {/* Hero Section */}
         <section className="relative py-20 pt-40 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto text-center">
-            <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 mb-6">Techrhym Blog</h1>
+            <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
+              Techrhym Blog
+            </h1>
+
             <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto">
-              Expert insights on Zoho CRM, AI automation, business process optimization, and digital transformation strategies.
+              Expert insights on Zoho CRM, AI automation, business process
+              optimization, and digital transformation strategies.
             </p>
           </div>
         </section>
 
-        {/* Blog Posts Grid */}
+        {/* Blog Grid */}
         <section className="py-24 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -94,17 +113,22 @@ export default function Blog() {
                 <Link
                   key={i}
                   href={`/blog/${post.slug}`}
-                  className="group relative h-full rounded-2xl overflow-hidden bg-white border border-slate-200/50 hover:border-blue-300/50 hover:shadow-lg transition-all duration-300"
+                  className="group relative h-full rounded-2xl overflow-hidden bg-white border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="h-full flex flex-col p-8">
-                    {/* Image */}
-                    <div className="w-full h-40 rounded-xl bg-gradient-to-br from-blue-50 to-cyan-50 flex items-center justify-center mb-6 text-5xl">
-                      {post.image}
+                  <div className="h-full flex flex-col p-6">
+                    {/* Blog Image */}
+                    <div className="relative w-full h-52 rounded-xl overflow-hidden mb-6">
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
                     </div>
 
                     {/* Category */}
-                    <div className="inline-block mb-4">
-                      <span className="px-3 py-1 rounded-full text-xs font-bold bg-blue-100/50 text-blue-700">
+                    <div className="mb-4">
+                      <span className="px-3 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-700">
                         {post.category}
                       </span>
                     </div>
@@ -125,11 +149,15 @@ export default function Blog() {
                         <Calendar size={16} />
                         <span>{post.date}</span>
                       </div>
+
                       <div className="flex items-center gap-2 text-sm text-slate-600">
                         <User size={16} />
                         <span>{post.author}</span>
                       </div>
-                      <div className="text-xs text-blue-600 font-semibold">{post.readTime}</div>
+
+                      <div className="text-xs text-blue-600 font-semibold">
+                        {post.readTime}
+                      </div>
                     </div>
                   </div>
                 </Link>
@@ -138,17 +166,22 @@ export default function Blog() {
           </div>
         </section>
 
-        {/* CTA */}
+        {/* CTA Section */}
         <section className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
           <div className="absolute inset-0 -z-10">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
           </div>
 
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">Ready to Transform Your Business?</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+              Ready to Transform Your Business?
+            </h2>
+
             <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
-              Learn from our experts how to implement these strategies in your organization.
+              Learn from our experts how to implement these strategies in your
+              organization.
             </p>
+
             <Link
               href="/contact"
               className="inline-flex items-center justify-center gap-3 px-10 py-4 rounded-xl bg-blue-600 text-white font-bold text-lg shadow-lg shadow-blue-600/30 hover:shadow-2xl hover:shadow-blue-600/40 transition-all"
@@ -159,6 +192,7 @@ export default function Blog() {
           </div>
         </section>
       </main>
+
       <Footer />
     </>
   )
