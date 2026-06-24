@@ -70,9 +70,9 @@ export default function About() {
                 <h3 className="font-bold text-foreground text-lg mb-6">Why Choose TechRhym?</h3>
                 <ul className="space-y-4">
                   {[
-                    'Proven expertise with 15+ years of experience',
+                    'Proven expertise with 5+ years of experience',
                     'Certified professionals and industry experts',
-                    '100+ successful projects delivered',
+                    '10+ successful projects delivered',
                     'Customized solutions for your specific needs',
                     'Ongoing support and continuous improvement',
                     'Transparent communication and collaboration'
