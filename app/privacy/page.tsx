@@ -21,7 +21,7 @@ export default function Privacy() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
                 <p className="text-muted-foreground">
-                  TechRhym (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;, or &quot;Company&quot;) operates the TechRhym website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+                  Techrhym (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;, or &quot;Company&quot;) operates the Techrhym website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
                 </p>
               </div>
 
@@ -38,7 +38,7 @@ export default function Privacy() {
 
               <div>
                 <h2 className="text-2xl font-bold mb-4">3. Use of Data</h2>
-                <p className="text-muted-foreground mb-4">TechRhym uses the collected data for various purposes:</p>
+                <p className="text-muted-foreground mb-4">Techrhym uses the collected data for various purposes:</p>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                   <li>To provide and maintain our Service</li>
                   <li>To notify you about changes to our Service</li>
@@ -66,7 +66,7 @@ export default function Privacy() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">6. Contact Us</h2>
                 <p className="text-muted-foreground">
-                  If you have any questions about this Privacy Policy, please contact us at Info@techrhym.com
+                  If you have any questions about this Privacy Policy, please contact us at Info@Techrhym.com
                 </p>
               </div>
             </div>

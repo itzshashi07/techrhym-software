@@ -150,7 +150,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <h2 className="text-4xl lg:text-5xl font-bold font-display text-foreground">
-                  Why Choose TechRhym
+                  Why Choose Techrhym
                 </h2>
                 <div className="space-y-6">
                   {[
@@ -215,7 +215,7 @@ export default function Home() {
                 Ready to Transform Your Business?
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Join 100+ companies that have streamlined operations and unlocked growth with TechRhym solutions.
+                Join 100+ companies that have streamlined operations and unlocked growth with Techrhym solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

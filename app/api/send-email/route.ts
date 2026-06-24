@@ -128,7 +128,7 @@ console.log("================================")
     // Admin Email
     console.log("Sending Admin Email...")
     await transporter.sendMail({
-      from: `"TechRhym Website" <${process.env.SMTP_GMAIL_USER}>`,
+      from: `"Techrhym Website" <${process.env.SMTP_GMAIL_USER}>`,
       to: [
           process.env.ADMIN_EMAIL!,
           process.env.SECONDARY_EMAIL!,
@@ -142,16 +142,16 @@ console.log("================================")
     // Customer Confirmation Email
 
     await transporter.sendMail({
-      from: `"TechRhym Team" <${process.env.SMTP_GMAIL_USER}>`,
+      from: `"Techrhym Team" <${process.env.SMTP_GMAIL_USER}>`,
       to: email,
-      subject: "Thank you for contacting TechRhym",
+      subject: "Thank you for contacting Techrhym",
       html: `
         <div style="font-family:Arial;padding:20px">
 
           <h2>Hello ${name},</h2>
 
           <p>
-            Thank you for contacting TechRhym.
+            Thank you for contacting Techrhym.
           </p>
 
           <p>
@@ -178,7 +178,7 @@ console.log("================================")
 
           <p>
             Regards,<br/>
-            TechRhym Team
+            Techrhym Team
           </p>
 
         </div>

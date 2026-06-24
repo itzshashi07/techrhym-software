@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
 
-const LOGO = 'https://techrhym.com/wp-content/uploads/2021/11/BD65F365-BB40-4953-833D-758675FD89EE_-removebg-preview-e1743497389170.png'
+const LOGO = 'https://Techrhym.com/wp-content/uploads/2021/11/BD65F365-BB40-4953-833D-758675FD89EE_-removebg-preview-e1743497389170.png'
 
 const nav = [
   { href: '/services', label: 'Services' },
@@ -36,7 +36,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-primary rounded-xl blur-xl opacity-40 group-hover:opacity-70 transition" />
-              <img src={LOGO} alt="TechRhym logo" className="relative h-10 w-auto object-contain" />
+              <img src={LOGO} alt="Techrhym logo" className="relative h-10 w-auto object-contain" />
             </div>
             <div className="leading-tight hidden sm:flex flex-col">
               <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">

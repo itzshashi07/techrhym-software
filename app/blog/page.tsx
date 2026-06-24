@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { ArrowRight, Calendar, User } from 'lucide-react'
 
 export const metadata = {
-  title: 'Blog | TechRhym - Zoho CRM, AI & Business Automation Insights',
+  title: 'Blog | Techrhym - Zoho CRM, AI & Business Automation Insights',
   description: 'Expert insights on Zoho CRM implementation, AI automation, business process optimization, and digital transformation strategies.',
 }
 
@@ -79,7 +79,7 @@ export default function Blog() {
         {/* Hero */}
         <section className="relative py-20 pt-40 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto text-center">
-            <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 mb-6">TechRhym Blog</h1>
+            <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 mb-6">Techrhym Blog</h1>
             <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto">
               Expert insights on Zoho CRM, AI automation, business process optimization, and digital transformation strategies.
             </p>

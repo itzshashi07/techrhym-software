@@ -4,8 +4,8 @@ import Link from 'next/link'
 import { ArrowRight, Star } from 'lucide-react'
 
 export const metadata = {
-  title: 'Our Clients | TechRhym',
-  description: 'See how businesses like yours have transformed operations with TechRhym solutions. Client testimonials and case studies.',
+  title: 'Our Clients | Techrhym',
+  description: 'See how businesses like yours have transformed operations with Techrhym solutions. Client testimonials and case studies.',
 }
 
 const clients = [
@@ -18,7 +18,7 @@ const clients = [
 const testimonials = [
   {
     company: 'Able Insurance',
-    text: 'TechRhym transformed our sales process completely. Lead management improved by 45% and our sales cycle reduced from 30 days to 18 days.',
+    text: 'Techrhym transformed our sales process completely. Lead management improved by 45% and our sales cycle reduced from 30 days to 18 days.',
     author: 'Rajesh Kumar',
     role: 'Sales Director',
     rating: 5
@@ -39,7 +39,7 @@ const testimonials = [
   },
   {
     company: 'Brahma Journal',
-    text: 'Going from spreadsheets to Zoho CRM was seamless. TechRhym handled everything and provided excellent training. Highly recommend!',
+    text: 'Going from spreadsheets to Zoho CRM was seamless. Techrhym handled everything and provided excellent training. Highly recommend!',
     author: 'Meera Patel',
     role: 'Business Manager',
     rating: 5
@@ -56,7 +56,7 @@ export default function Clients() {
           <div className="max-w-6xl mx-auto text-center">
             <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 mb-6">Trusted by Leading Companies</h1>
             <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto">
-              Organizations across industries rely on TechRhym to transform their operations, automate processes, and drive measurable growth.
+              Organizations across industries rely on Techrhym to transform their operations, automate processes, and drive measurable growth.
             </p>
           </div>
         </section>
@@ -89,7 +89,7 @@ export default function Clients() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 text-center mb-4">Client Testimonials</h2>
             <p className="text-lg text-slate-600 text-center mb-16 max-w-2xl mx-auto">
-              Hear from companies that have transformed their business with TechRhym solutions.
+              Hear from companies that have transformed their business with Techrhym solutions.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -171,7 +171,7 @@ export default function Clients() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">Ready to Join Our Success Stories?</h2>
             <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
-              Let's discuss how TechRhym can transform your business and create measurable impact.
+              Let's discuss how Techrhym can transform your business and create measurable impact.
             </p>
             <Link
               href="/contact"

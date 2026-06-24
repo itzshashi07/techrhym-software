@@ -16,7 +16,7 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
   if (!post) return {}
 
   return {
-    title: `${post.title} | TechRhym Blog`,
+    title: `${post.title} | Techrhym Blog`,
     description: post.description,
   }
 }

@@ -25,7 +25,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'TechRhym | Transform Your Business with Technology',
+  title: 'Techrhym | Transform Your Business with Technology',
   description: 'Enterprise solutions for Zoho CRM, AI automation, custom software, and digital transformation. Helping businesses streamline operations and scale smarter.',
   generator: 'v0.app',
   icons: {
@@ -33,16 +33,16 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   keywords: 'Zoho CRM, AI automation, custom software development, digital transformation, business automation',
-  authors: [{ name: 'TechRhym' }],
+  authors: [{ name: 'Techrhym' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://techrhym.com',
-    siteName: 'TechRhym',
-    title: 'TechRhym | Transform Your Business with Technology',
+    url: 'https://Techrhym.com',
+    siteName: 'Techrhym',
+    title: 'Techrhym | Transform Your Business with Technology',
     description: 'Enterprise solutions for Zoho CRM, AI automation, custom software, and digital transformation.',
     images: [{
-      url: 'https://techrhym.com/og-image.png',
+      url: 'https://Techrhym.com/og-image.png',
       width: 1200,
       height: 630,
     }],

@@ -4,7 +4,7 @@ import { ArrowRight, Zap, Brain, Code, BarChart3, MessageSquare, Smartphone, Set
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Services | TechRhym - Zoho CRM, AI Automation & Custom Software',
+  title: 'Services | Techrhym - Zoho CRM, AI Automation & Custom Software',
   description: 'Enterprise solutions for Zoho CRM implementation, AI automation, custom software development, and digital transformation.',
 }
 
@@ -127,7 +127,7 @@ export default function Services() {
         {/* Why Choose Section */}
         <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50/50 to-transparent">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 text-center mb-16">Why Choose TechRhym Services</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 text-center mb-16">Why Choose Techrhym Services</h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[

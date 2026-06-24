@@ -509,7 +509,7 @@ console.log("Response:", data)
                 {
                   icon: Mail,
                   title: 'Email',
-                  content: ['Info@techrhym.com', 'Response within 24 hours']
+                  content: ['Info@Techrhym.com', 'Response within 24 hours']
                 },
                 {
                   icon: Phone,

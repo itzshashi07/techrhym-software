@@ -76,10 +76,10 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email to admin
-    const adminEmail = process.env.ADMIN_EMAIL || 'info@techrhym.com'
+    const adminEmail = process.env.ADMIN_EMAIL || 'info@Techrhym.com'
     
     const result = await resend.emails.send({
-      from: 'TechRhym <onboarding@resend.dev>',
+      from: 'Techrhym <onboarding@resend.dev>',
       to: adminEmail,
       subject,
       html: `
@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
             ${emailContent}
             <hr style="margin-top: 20px;">
             <p style="font-size: 12px; color: #666;">
-              This is an automated message from TechRhym website contact form.
+              This is an automated message from Techrhym website contact form.
             </p>
           </body>
         </html>
@@ -97,9 +97,9 @@ export async function POST(request: NextRequest) {
 
     // Send confirmation email to user
     await resend.emails.send({
-      from: 'TechRhym <onboarding@resend.dev>',
+      from: 'Techrhym <onboarding@resend.dev>',
       to: email,
-      subject: 'We received your inquiry - TechRhym',
+      subject: 'We received your inquiry - Techrhym',
       html: `
         <html>
           <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
@@ -107,10 +107,10 @@ export async function POST(request: NextRequest) {
             <p>We've received your message and our team will get back to you within 24 hours.</p>
             <p>If you have any urgent questions, please feel free to reach out directly:</p>
             <p>
-              <strong>Email:</strong> info@techrhym.com<br>
+              <strong>Email:</strong> info@Techrhym.com<br>
               <strong>Phone:</strong> Available for consultations
             </p>
-            <p>Best regards,<br>The TechRhym Team</p>
+            <p>Best regards,<br>The Techrhym Team</p>
           </body>
         </html>
       `

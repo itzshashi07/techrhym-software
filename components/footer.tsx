@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Mail, Phone, MapPin, Zap, Code, Share2 } from 'lucide-react'
 import Image from 'next/image'
 
-const LOGO = 'https://techrhym.com/wp-content/uploads/2021/11/BD65F365-BB40-4953-833D-758675FD89EE_-removebg-preview-e1743497389170.png'
+const LOGO = 'https://Techrhym.com/wp-content/uploads/2021/11/BD65F365-BB40-4953-833D-758675FD89EE_-removebg-preview-e1743497389170.png'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -15,7 +15,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link href="/" className="flex items-center gap-3">
-              <img src={LOGO} alt="TechRhym" className="h-10 w-auto object-contain" />
+              <img src={LOGO} alt="Techrhym" className="h-10 w-auto object-contain" />
               <span className="font-display text-lg font-bold"></span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
@@ -70,7 +70,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-primary" />
-                <a href="mailto:Info@techrhym.com" className="hover:text-foreground">Info@techrhym.com</a>
+                <a href="mailto:Info@Techrhym.com" className="hover:text-foreground">Info@Techrhym.com</a>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 text-primary" />
@@ -85,7 +85,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row justify-between gap-3 text-xs text-muted-foreground">
-          <p>&copy; {currentYear} TechRhym. All rights reserved.</p>
+          <p>&copy; {currentYear} Techrhym. All rights reserved.</p>
           <p>Business Automation • CRM • AI • Custom Software</p>
         </div>
       </div>

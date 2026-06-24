@@ -3,8 +3,8 @@ import { Footer } from '@/components/footer'
 import { CheckCircle2 } from 'lucide-react'
 
 export const metadata = {
-  title: 'About TechRhym | Technology Solutions Company',
-  description: 'Learn about TechRhym&apos;s mission, values, and expertise in Zoho CRM, AI automation, and digital transformation.',
+  title: 'About Techrhym | Technology Solutions Company',
+  description: 'Learn about Techrhym&apos;s mission, values, and expertise in Zoho CRM, AI automation, and digital transformation.',
 }
 
 export default function About() {
@@ -42,7 +42,7 @@ export default function About() {
         <section className="min-h-64 bg-gradient-to-r from-primary/5 to-accent/5 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <h1 className="text-5xl font-bold text-foreground mb-4">About TechRhym</h1>
+              <h1 className="text-5xl font-bold text-foreground mb-4">About Techrhym</h1>
               <p className="text-xl text-muted-foreground">
                 We&apos;re a team of passionate technology experts dedicated to transforming businesses through innovative digital solutions.
               </p>
@@ -57,7 +57,7 @@ export default function About() {
               <div>
                 <h2 className="text-4xl font-bold text-foreground mb-6">Our Mission</h2>
                 <p className="text-lg text-muted-foreground mb-4">
-                  At TechRhym, our mission is to empower businesses of all sizes with cutting-edge technology solutions that streamline operations, enhance productivity, and drive sustainable growth.
+                  At Techrhym, our mission is to empower businesses of all sizes with cutting-edge technology solutions that streamline operations, enhance productivity, and drive sustainable growth.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
                   We believe that technology should be accessible, practical, and transformative. Our goal is to be your trusted partner in navigating the digital landscape and achieving your business objectives.
@@ -67,7 +67,7 @@ export default function About() {
                 </p>
               </div>
               <div className="bg-gradient-to-br from-primary/5 to-accent/5 p-8 rounded-2xl border border-primary/10">
-                <h3 className="font-bold text-foreground text-lg mb-6">Why Choose TechRhym?</h3>
+                <h3 className="font-bold text-foreground text-lg mb-6">Why Choose Techrhym?</h3>
                 <ul className="space-y-4">
                   {[
                     'Proven expertise with 5+ years of experience',
@@ -111,7 +111,7 @@ export default function About() {
             
             <div className="space-y-8 max-w-3xl mx-auto">
               {[
-                { year: '2021', title: 'Founded', description: 'TechRhym was established with a vision to transform businesses through technology.' },
+                { year: '2021', title: 'Founded', description: 'Techrhym was established with a vision to transform businesses through technology.' },
                 { year: '2022', title: 'Zoho Expertise', description: 'Became certified Zoho CRM partner, helping 100+ businesses implement CRM.' },
                 { year: '2023', title: 'Expanded Services', description: 'Added custom software development and AI automation services.' },
                 { year: '2024', title: 'Digital Transformation', description: 'Launched comprehensive digital transformation consulting practice.' },
