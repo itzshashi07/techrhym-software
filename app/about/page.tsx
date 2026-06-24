@@ -111,12 +111,12 @@ export default function About() {
             
             <div className="space-y-8 max-w-3xl mx-auto">
               {[
-                { year: '2009', title: 'Founded', description: 'TechRhym was established with a vision to transform businesses through technology.' },
-                { year: '2013', title: 'Zoho Expertise', description: 'Became certified Zoho CRM partner, helping 100+ businesses implement CRM.' },
-                { year: '2016', title: 'Expanded Services', description: 'Added custom software development and AI automation services.' },
-                { year: '2020', title: 'Digital Transformation', description: 'Launched comprehensive digital transformation consulting practice.' },
-                { year: '2023', title: 'Growth & Recognition', description: 'Recognized as a leading technology solutions provider with 250+ projects.' },
-                { year: '2024', title: 'Innovation Focus', description: 'Expanding AI and automation services to help more businesses evolve.' }
+                { year: '2021', title: 'Founded', description: 'TechRhym was established with a vision to transform businesses through technology.' },
+                { year: '2022', title: 'Zoho Expertise', description: 'Became certified Zoho CRM partner, helping 100+ businesses implement CRM.' },
+                { year: '2023', title: 'Expanded Services', description: 'Added custom software development and AI automation services.' },
+                { year: '2024', title: 'Digital Transformation', description: 'Launched comprehensive digital transformation consulting practice.' },
+                { year: '2025', title: 'Growth & Recognition', description: 'Recognized as a leading technology solutions provider with 250+ projects.' },
+                { year: '2026', title: 'Innovation Focus', description: 'Expanding AI and automation services to help more businesses evolve.' }
               ].map((item, i) => (
                 <div key={i} className="flex gap-6">
                   <div className="flex-shrink-0 w-24">
