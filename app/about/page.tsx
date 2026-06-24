@@ -27,12 +27,12 @@ export default function About() {
     }
   ]
 
-  const team = [
-    { name: 'Shashi Kumar', role: 'Founder & CEO', expertise: 'Zoho CRM Expert' },
-    { name: 'Arjun Sharma', role: 'Technical Lead', expertise: 'Custom Development' },
-    { name: 'Meera Patel', role: 'Solutions Architect', expertise: 'System Integration' },
-    { name: 'Rohit Singh', role: 'Lead Developer', expertise: 'AI & Automation' }
-  ]
+  // const team = [
+  //   { name: 'Shashi Kumar', role: 'Founder & CEO', expertise: 'Zoho CRM Expert' },
+  //   { name: 'Arjun Sharma', role: 'Technical Lead', expertise: 'Custom Development' },
+  //   { name: 'Meera Patel', role: 'Solutions Architect', expertise: 'System Integration' },
+  //   { name: 'Rohit Singh', role: 'Lead Developer', expertise: 'AI & Automation' }
+  // ]
 
   return (
     <>
@@ -134,7 +134,7 @@ export default function About() {
         </section>
 
         {/* Team Section */}
-        <section className="py-20 bg-muted/30">
+        {/* <section className="py-20 bg-muted/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-foreground mb-16 text-center">Our Expert Team</h2>
             
@@ -153,7 +153,7 @@ export default function About() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Expertise Section */}
         <section className="py-20">
